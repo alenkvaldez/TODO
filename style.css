@@ -1,0 +1,46 @@
+.title{
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .form{
+      margin: auto;
+      max-width:400px;
+      text-align: center;
+      color: black;
+      font-weight: bolder;
+  }
+
+  input[type='submit'], button, [aria-label]{
+    cursor: pointer;
+  }
+  #edit-box{
+    display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  td{
+      background-color: aliceblue;
+      padding-right: 10px;
+      text-align: left;
+  }
+
+  .to-do{
+      background: transparent !important;
+      color: black;
+  }
+
+  iframe {
+    width: 25%;
+    margin-right: auto;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: aliceblue;
+}
+
